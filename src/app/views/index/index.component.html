@@ -1,3 +1,5 @@
+
+<section class="SyneBold mt-4">
 <mat-toolbar class="h-[15%] bg-[white]">
   <span class="w-[40%]"><img src="assets/img/Rendea-menu.png" alt=""></span>
   <span class="example-spacer"></span>
@@ -18,30 +20,37 @@
 
   </div>
 
-  <button mat-button onclick="window.location.href=' #'"
+  <div class="hidden lg:block">
+  <button class= mat-button onclick="window.location.href=' #'"
     style="background: #FF8D00; border-radius: 50px; width:  217px; height: 60px; color: #000000;">
     <a href="#contacto">Conversemos</a></button>
+  </div>
 </mat-toolbar>
 
 <section class="mt-12">
-  <div class="w-[100%] flex justify-between">
-    <div class="w-[40%] flex flex-col px-4">
-      <div class="flex justify-center text-[51.83px] ">
-        <p class="w-[566px]">Elige cómo y cuándo adelantar el alquiler de tu inmueble.</p>
+  <div class="w-[100%] flex mb:flex-col-reverse lg:justify-between">
+    <div class="lg:w-[40%] flex flex-col">
+      <div class="flex justify-center lg:text-[30px] xl:text-[40px] 2xl:text-[51.83px] ">
+        <div class="flex flex-col">
+        <p class="2xl:w-[566px] xl:w-[450px] lg:w-[304px] w-[227px]">Elige cómo y cuándo adelantar el alquiler de tu inmueble.</p>
+        <p class="lg:text-[17px] xl:text-[20px] 2xl:text-[24px]  2xl:w-[368px] xl:w-[368px] lg:w-[270px] w-[227px]"> Recibe hasta <span style="color: #FF5C00;"> 12 meses </span> de tus alquileres en un solo
+          pago</p>
+        </div>
       </div>
-      <div class="flex flex-row-reverse text-[24px] mr-[38%] mt-9">
-        <p class="w-[368px]"> Recibe hasta <span style="color: #FF5C00;"> 12 meses </span> de tus alquileres en un solo
+      <div class="lg:hidden block flex justify-center lg:flex-row-reverse   mt-9">
+        <p class="xl:text-[20px] 2xl:text-[24px]  2xl:w-[368px] xl:w-[368px] lg:w-[270px] w-[227px]"> Recibe hasta <span style="color: #FF5C00;"> 12 meses </span> de tus alquileres en un solo
           pago</p>
       </div>
-      <div class="flex flex-row-reverse mr-[42%] mt-20">
+      <div class="flex flex-row-reverse 2xl:mr-[42%] xl:mr-[30%] lg:mr-[10%] mt-20">
         <button mat-button onclick="window.location.href=' #'"
           style="background: #FF8D00; border-radius: 50px; width:  335px; height: 84px; color: #000000;">
           <a href="#contacto">Lista de espera</a></button>
       </div>
     </div>
-    <div class="bg-[#FAF3E3] w-[60%]  flex justify-center">
+    <div class="bg-[#FAF3E3] lg:w-[60%]  flex justify-center">
       <div class=" mt-28 mb-[118px]">
-        <img src="assets/img/12mesesadelanto.png" alt="">
+        <img class="hidden lg:block" src="assets/img/12mesesadelanto.png" alt="">
+        <img src="lg:hidden block" alt="">
       </div>
     </div>
   </div>
@@ -51,11 +60,11 @@
   <div class="w-[100%] flex justify-between">
     <div class="w-[70%] bg-[#FAF3E3]">
       <div class="mt-72 mb-[366px] ml-7">
-        <div class="w-[460px] ">
-          <p class="text-[48px] ">Adelante su dinero de alquiler</p>
+        <div class="2xl:w-[460px] xl:w-[400px] lg:w-[350px]">
+         <p class="2xl:text-[48px] xl:text-[40px] lg:text-[35px]">Adelante su dinero de alquiler</p>
         </div>
-        <div class="w-[498px] mt-16">
-          <p class="text-[24px]">No hay necesidad de esperar a que el dinero llegue solo mensualmente.</p>
+        <div class="2xl:w-[498px] xl:w-[448px] lg:w-[380px] 2xl:mt-16 xl:mt-8 lg:mt-6">
+          <p class="2xl:text-[24px] xl:text-[20px]">No hay necesidad de esperar a que el dinero llegue solo mensualmente.</p>
         </div>
       </div>
     </div>
@@ -78,18 +87,18 @@
     </div>
     <div class="w-[60%] bg-[#FAF3E3] ">
       <div class="mt-[306px]">
-        <div class="flex space-x-7 text-[16px] justify-center w-[92%]">
+        <div class="flex lg:space-x-16 xl:space-x-12 2xl:space-x-7  text-[16px] justify-center w-[92%]">
           <p class="w-[9%]">Propietario</p>
           <p class="w-[9%]">Inquilino</p>
           <p class="w-[9%]">Agencias</p>
         </div>
         <div>
           <div class=" flex justify-center mt-[39px]">
-            <p class="text-[48px] w-[441px]">Todo estara en la aplicación de tu teléfono</p>
+            <p class="lg:text-[30px] xl:text-[38px] 2xl:text-[48px] lg:w-[400px]  xl:w-[441px]">Todo estara en la aplicación de tu teléfono</p>
           </div>
         </div>
-        <div class=" flex justify-center w-[79%] mt-[13px]">
-          <p class="text-[20px]">Pagos, servicios y más</p>
+        <div class=" flex justify-center lg:w-[73%] xl:w-[74%] 2xl:w-[83%] mt-[13px]">
+          <p class="xl:text-[17px] 2xl:text-[20px]">Pagos, servicios y más</p>
 
         </div>
         <div class=" flex justify-center w-[90%] mt-[39px] mb-[298px]">
@@ -108,32 +117,32 @@
     </div>
   </div>
   <div class="w-[60%] bg-[#033629] text-white">
-    <div class=" flex space-x-7 text-[16px] justify-center w-[92%]">
+    <div class=" flex space-x-7 text-[16px] justify-center w-[100%]">
       <div class="flex flex-col mt-48 ">
-        <p class="flex text-[48px]">Beneficios</p>
-        <div class="flex justify-between">
-          <div class="text-[20px] w-[335px] mt-14">
+        <p class="flex lg:text-[35px] xl:text-[41px] 2xl:text-[48px]">Beneficios</p>
+        <div class="flex justify-between lg:space-x-8 xl:space-x-10 ">
+          <div class="lg:text-[15px] xl:text-[20px] lg:w-[280px] xl:w-[280px] 2xl:w-[335px] mt-14">
             <i> <img src="assets/img/icono-check.png" alt=""></i>
-            <p class="text-[32px] mb-[38px]">
+            <p class="lg:text-[27px] xl:text-[27px] 2xl:text-[32px] mb-[38px]">
               Una nueva forma
               de cobrar el aquiler
             </p>
-            <span>
+            <p class="lg:w-[240px] xl:w-[300px] 2xl:w-[320px]">
               Multiplica las ventajas de tener
               tu inmueble alquilado con Rendea.
-            </span>
+            </p>
           </div>
           <div>
-            <div class="text-[20px] w-[335px] mt-14 mb-36">
+            <div class="lg:text-[15px] xl:text-[20px] lg:w-[280px] xl:w-[280px] 2xl:w-[335px] mt-14 mb-36">
               <i> <img src="assets/img/icono-check.png" alt=""></i>
-              <p class="text-[32px] mb-[38px]">
+              <p class="lg:text-[27px] xl:text-[27px] 2xl:text-[32px] mb-[38px]">
                 Una nueva forma
                 de cobrar el aquiler
               </p>
-              <span>
+              <p class="lg:w-[240px] xl:w-[320px] 2xl:w-[320px]">
                 Multiplica las ventajas de tener
                 tu inmueble alquilado con Rendea.
-              </span>
+              </p>
             </div>
           </div>
         </div>
@@ -143,7 +152,7 @@
 </section>
 
 <section class="w-[100%] bg-[#F5F5F5]">
-  <div class="flex justify-center text-[36px]">
+  <div class="flex justify-center lg:text-[25px] xl:text-[30px] 2xl:text-[36px]">
     <div class="flex flex-col">
       <p class=" w-[966px] mt-32 flex justify-center">Disfruta de tener tu inmueble en alquiler
       </p>
@@ -351,4 +360,5 @@
 
   </div>
 
+</section>
 </section>

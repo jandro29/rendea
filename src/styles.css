@@ -6,3 +6,50 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/*FONT*/
+
+@font-face {
+  font-family: SyneBold;
+  src: url(assets/font/Syne-Bold.ttf);
+}
+
+@font-face {
+  font-family: SyneExtraBold;
+  src: url(assets/font/Syne-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: SyneMedium;
+  src: url(assets/font/Syne-Medium.ttf);
+}
+
+@font-face {
+  font-family: SyneRegular;
+  src: url(assets/font/Syne-Regular.ttf);
+}
+
+@font-face {
+  font-family: SyneSemiBold;
+  src: url(assets/font/Syne-SemiBold.ttf);
+}
+
+.SyneBold{
+  font-family: SyneBold;
+}
+
+.SyneExtraBold{
+  font-family: SyneExtraBold;
+}
+
+.SyneMedium{
+  font-family: SyneMedium;
+}
+
+.SyneRegular{
+  font-family: SyneRegular;
+}
+
+.SyneSemiBold{
+  font-family: SyneSemiBold;
+}
