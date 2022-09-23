@@ -14,16 +14,41 @@ import {MatSelectModule} from '@angular/material/select';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatExpansionModule} from '@angular/material/expansion';
+import { Page2Component } from './views/page2/page2.component';
+import { RouterModule, Routes } from '@angular/router';
+import { AgenteComponent } from './views/agente/agente.component';
 
 
+const routes: Routes = [
 
+  {
+    path: '', redirectTo: '/index', pathMatch: 'full'
+
+  },
+
+  {
+    path: 'index', component: IndexComponent
+
+  },
+
+  {
+    path: 'page2', component: Page2Component
+
+  },
+  {
+    path: 'agente', component: AgenteComponent
+
+  }
+]
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    IndexComponent
+    IndexComponent,
+    Page2Component,
+    AgenteComponent
 
   ],
   imports: [
@@ -38,8 +63,8 @@ import {MatExpansionModule} from '@angular/material/expansion';
     MatSelectModule,
     MatTabsModule,
     MatMenuModule,
-    MatExpansionModule
-
+    MatExpansionModule,
+    RouterModule.forRoot(routes)
 
   ],
   providers: [],

@@ -1,0 +1,88 @@
+<section class="SyneBold mt-4">
+
+  <mat-toolbar class="h-[15%] bg-[white]">
+    <span class="w-[40%]"><img src="assets/img/Rendea-menu.png" alt=""></span>
+    <span class="example-spacer"></span>
+    <span class="example-spacer"></span>
+
+    <div class="w-[100%] lg:hidden block">
+      <div class="flex justify-end">
+        <a href="#"><img src="assets/img/gg_menu.png" alt=""></a>
+      </div>
+    </div>
+    <div class="hidden lg:block w-[60%] space-x-20">
+
+
+      <a mat-button [routerLink]="['/index']">Propietario</a>
+
+
+      <a mat-button [routerLink]="['/page2']">Inquilino</a>
+
+
+      <a mat-button [routerLink]="['/agente']">Agente</a>
+
+
+
+
+    </div>
+
+    <div class="hidden lg:block">
+      <button class=mat-button onclick="window.location.href=' #'"
+        style="background: #FF8D00; border-radius: 50px; width:  217px; height: 60px; color: #000000;">
+        <a href="#contacto">Conversemos</a></button>
+    </div>
+  </mat-toolbar>
+
+  <section class="mt-12">
+    <div class="w-[100%] flex mb:flex-col-reverse md:justify-between">
+      <div class=" w-[100%] md:w-[40%] flex flex-col bg-[#FAF3E3] md:bg-[#F5F5F5]">
+        <div class="flex justify-center text-[20px] lg:text-[30px] xl:text-[40px] 2xl:text-[51.83px] mt-8 md:mt-48">
+          <div class="flex flex-col">
+            <div class="md:hidden block">
+              <div class="w-[100%]">
+                <div class="flex justify-center mb-12">
+                  <div class="w-[70%]">
+                  <img src="assets/img/inquilino.png" alt="">
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-[100%]">
+              <div class="flex justify-center md:justify-start">
+            <p class="2xl:w-[566px] xl:w-[450px] lg:w-[304px] w-[227px]">Corre la voz, te regalamos una recompensa.</p>
+          </div>
+          </div>
+            <p
+              class="hidden md:block text-[16px] lg:text-[17px] xl:text-[20px] 2xl:text-[24px] 2xl:w-[368px] xl:w-[368px] lg:w-[270px] w-[227px]">
+              Ahorra hasta s/ 200 por afiliarte</p>
+            <div class="hidden lg:block flex flex-row-reverse 2xl:mr-[42%] xl:mr-[30%] lg:mr-[10%] mt-20 mb-40">
+              <button mat-button onclick="window.location.href=' #'"
+                style="background: #FF8D00; border-radius: 50px; width:  335px; height: 84px; color: #000000;">
+                <a href="#contacto">Lista de espera</a></button>
+            </div>
+          </div>
+        </div>
+        <div class="md:hidden block flex justify-center lg:flex-row-reverse   mt-9">
+          <p class="text-[13px]  2xl:w-[368px] xl:w-[368px] lg:w-[270px] w-[227px]">Ahorra hasta s/ 200 por afiliarte
+          </p>
+        </div>
+        <div class="lg:hidden block flex justify-center mb-8">
+          <div class="flex flex-row-reverse mt-20">
+            <button mat-button onclick="window.location.href=' #'"
+              style="background: #FF8D00; border-radius: 50px; width: 287px; height: 48px; color: #000000;">
+              <a href="#contacto">Lista de espera</a></button>
+          </div>
+        </div>
+
+
+
+      </div>
+      <div class=" md:block hidden bg-[#FAF3E3] md:w-[60%] ">
+        <div class=" mt-28 mb-[118px] flex justify-center">
+          <img class="hidden md:block" src="assets/img/inquilino.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+</section>

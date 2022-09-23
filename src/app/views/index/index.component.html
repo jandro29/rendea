@@ -3,16 +3,22 @@
     <span class="w-[40%]"><img src="assets/img/Rendea-menu.png" alt=""></span>
     <span class="example-spacer"></span>
     <span class="example-spacer"></span>
+
+    <div class="w-[100%] lg:hidden block">
+    <div class="flex justify-end">
+      <a href="#"><img src="assets/img/gg_menu.png" alt=""></a>
+    </div>
+  </div>
     <div class="hidden lg:block w-[60%] space-x-20">
 
 
-      <a mat-button href="">Propietario</a>
+      <a mat-button [routerLink]="['/index']">Propietario</a>
 
 
-      <a mat-button href="#">Inquilino</a>
+      <a mat-button [routerLink]="['/page2']" >Inquilino</a>
 
 
-      <a mat-button href="#">Agente</a>
+      <a mat-button [routerLink]="['/agente']">Agente</a>
 
 
 
@@ -29,14 +35,21 @@
   <section class="mt-12">
     <div class="w-[100%] flex mb:flex-col-reverse md:justify-between">
       <div class=" w-[100%] md:w-[40%] flex flex-col bg-[#FAF3E3] md:bg-[#F5F5F5]">
-        <div class="flex justify-center text-[20px] lg:text-[30px] xl:text-[40px] 2xl:text-[51.83px] mt-48">
+        <div class="flex justify-center text-[20px] lg:text-[30px] xl:text-[40px] 2xl:text-[51.83px] mt-8 md:mt-48">
           <div class="flex flex-col">
+            <div class="md:hidden block">
+              <div class="w-[100%]">
+                <div class="flex justify-center mb-12">
+              <img src="assets/img/12-meses-responsive.png" alt="">
+            </div>
+            </div>
+            </div>
             <p class="2xl:w-[566px] xl:w-[450px] lg:w-[304px] w-[227px]">Elige cómo y cuándo adelantar el alquiler de tu
               inmueble.</p>
             <p class="hidden md:block text-[16px] lg:text-[17px] xl:text-[20px] 2xl:text-[24px] 2xl:w-[368px] xl:w-[368px] lg:w-[270px] w-[227px]">
               Recibe hasta <span style="color: #FF5C00;"> 12 meses </span> de tus alquileres en un solo
               pago</p>
-            <div class="hidden lg:block flex flex-row-reverse 2xl:mr-[42%] xl:mr-[30%] lg:mr-[10%] mt-20">
+            <div class="hidden lg:block flex flex-row-reverse 2xl:mr-[42%] xl:mr-[30%] lg:mr-[10%] mt-20 mb-40">
               <button mat-button onclick="window.location.href=' #'"
                 style="background: #FF8D00; border-radius: 50px; width:  335px; height: 84px; color: #000000;">
                 <a href="#contacto">Lista de espera</a></button>
@@ -68,7 +81,7 @@
     </div>
   </section>
 
-  <section>
+  <section class="hidden">
     <div class="w-[100%] flex justify-between">
       <div class="md:w-[70%] w-[100%] md:bg-[#FAF3E3] bg-[#FFFFFF]">
         <div class="md:mt-72 mt-20 mb-[366px] md:ml-7 ">
