@@ -47,16 +47,16 @@
               <div class="w-[100%]">
                 <div class="flex justify-center mb-12">
                   <div class="w-[90%]">
-                  <img src="assets/img/agente-img.png" alt="">
-                </div>
+                    <img src="assets/img/agente-img.png" alt="">
+                  </div>
                 </div>
               </div>
             </div>
             <div class="w-[100%]">
               <div class="flex justify-center md:justify-start">
-            <p class="2xl:w-[566px] xl:w-[450px] lg:w-[304px] w-[227px]">Programa de recompensas para agentes.</p>
-          </div>
-          </div>
+                <p class="2xl:w-[566px] xl:w-[450px] lg:w-[304px] w-[227px]">Programa de recompensas para agentes.</p>
+              </div>
+            </div>
 
             <div class="hidden lg:block flex flex-row-reverse 2xl:mr-[42%] xl:mr-[30%] lg:mr-[10%] mt-20 mb-40">
               <button mat-button onclick="window.location.href=' #'"
@@ -83,6 +83,303 @@
         </div>
       </div>
     </div>
+  </section>
+
+  <section>
+    <div class="w-[100%]">
+      <div class="hidden md:block">
+      <div class="flex justify-center">
+        <div class="bg-[#033629] w-[80%] h-[600px] text-white mt-60 mb-64" style="border-radius: 25px;">
+          <div class="flex justify-center mt-12">
+            <p class="text-[48px]">Beneficios</p>
+          </div>
+
+          <div class="">
+          <div class="flex justify-center lg:text-[20px] text-[15px]">
+            <div class="flex justify-between space-x-10 mt-32 w-[80%]">
+              <div class="flex flex-col w-[335px]">
+                <i><img src="assets/img/icono-check.png" alt=""></i>
+                <p class="mt-4">Hicimos un servicio para que los propietarios obtengan el alquiler por adelantado hasta
+                  por un año.
+                </p>
+              </div>
+              <div class="flex flex-col w-[335px]">
+                <i><img src="assets/img/icono-check.png" alt=""></i>
+                <p class="mt-4">No es un préstamo y no contiene ningún compromiso financiero. Es simplemente para que su
+                  arrendador lo
+                  ayude con su flujo
+
+                </p>
+              </div>
+              <div class="flex flex-col w-[335px]">
+                <i><img src="assets/img/icono-check.png" alt=""></i>
+                <p class="mt-4">El servicio funciona con contratos de arrendamiento existentes y no ofrece asistencia
+                  con búsquedas o
+                  administración de propiedades
+
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+     <div class="md:hidden block">
+      <div class="flex justify-center">
+        <div class="bg-[#033629] w-[100%] h-screen text-white mt-60 mb-64">
+          <div class="flex justify-center mt-16">
+            <p class="text-[30px]">Beneficios</p>
+          </div>
+
+          <div class="">
+          <div class="flex justify-center text-[10px]">
+            <div class="flex flex-col space-y-10 mt-14 w-[80%]">
+              <div class="flex flex-col w-[80%]">
+                <i><img src="assets/img/icono-check.png" alt=""></i>
+                <p class="mt-4">Hicimos un servicio para que los propietarios obtengan el alquiler por adelantado hasta
+                  por un año.
+                </p>
+              </div>
+              <div class="flex flex-col w-[80%]">
+                <i><img src="assets/img/icono-check.png" alt=""></i>
+                <p class="mt-4">No es un préstamo y no contiene ningún compromiso financiero. Es simplemente para que su
+                  arrendador lo
+                  ayude con su flujo
+
+                </p>
+              </div>
+              <div class="flex flex-col w-[80%]">
+                <i><img src="assets/img/icono-check.png" alt=""></i>
+                <p class="mt-4">El servicio funciona con contratos de arrendamiento existentes y no ofrece asistencia
+                  con búsquedas o
+                  administración de propiedades
+
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section>
+
+    <div class="flex justify-center mt-10 mb-52">
+      <div class="hidden lg:block flex flex-col">
+        <mat-accordion style="width: 938px;">
+          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+            <mat-expansion-panel-header style="width:  938px; margin-top: 40px;">
+              <mat-panel-title>
+                ¿Cómo se paga la comisión y con qué frecuencia?
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <p style="width: 890px;">Transferiremos su comisión a la agencia / individuo tan pronto como se apruebe la
+              financiación inicial para su arrendador invitado</p>
+          </mat-expansion-panel>
+        </mat-accordion>
+
+        <mat-accordion style="width: 938px;">
+          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+            <mat-expansion-panel-header style="width:  938px; margin-top: 40px;">
+              <mat-panel-title>
+                ¿En qué se basa su comisión?
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <p style="width: 890px;">La comisión del agente es un porcentaje de la financiación inicial total que el
+              propietario toma</p>
+          </mat-expansion-panel>
+        </mat-accordion>
+
+        <mat-accordion style="width: 938px;">
+          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+            <mat-expansion-panel-header style="width:  938px; margin-top: 40px;">
+              <mat-panel-title>
+                ¿Qué hay de las tarifas administrativas de la agencia?
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <p style="width: 890px;">El agente no necesita preocuparse por sus tarifas regulares. Esto se debe a que el
+              pago inicial de Rendea se basa en los ingresos por alquiler del arrendador, después de todos los
+              honorarios del agente deducidos. De esta forma, el agente recibe la comisión de Rendea además de lo que
+              cobran a los propietarios.
+            </p>
+          </mat-expansion-panel>
+        </mat-accordion>
+
+        <mat-accordion style="width: 938px;">
+          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+            <mat-expansion-panel-header style="width:  938px; margin-top: 40px;">
+              <mat-panel-title>
+                ¿Necesito proporcionar mis propios suministros de marketing?
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <p style="width: 890px;">No, le proporcionaremos todos los activos que necesita para promocionar Rendea,
+              como:
+              Una variedad de información sobre una base regular y actualizaciones sobre nuestros servicios más nuevos.
+              Sesiones individuales de recuperación para responder a todas las preguntas que pueda tener sobre nuestro
+              servicio.</p>
+          </mat-expansion-panel>
+        </mat-accordion>
+
+        <mat-accordion style="width: 938px; ">
+          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+            <mat-expansion-panel-header style="width:  938px; margin-top: 40px;">
+              <mat-panel-title>
+                ¿Cómo puedo rastrearlo?
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <p style="width: 890px;">Puede ver el rendimiento de las ventas y las ganancias por comisiones en cualquier
+              momento accediendo a los informes en línea. Con esta gran visibilidad del rendimiento, puede optimizar
+              regularmente su flujo de información para los propietarios.</p>
+          </mat-expansion-panel>
+        </mat-accordion>
+      </div>
+
+
+
+      <div class="flex flex-col lg:hidden block">
+        <mat-accordion style="width: 100%;">
+          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+            <mat-expansion-panel-header style="width:  100%; margin-top: 40px;">
+              <mat-panel-title>
+                ¿Cómo se paga la comisión y con qué frecuencia?
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <p>Transferiremos su comisión a la agencia / individuo tan pronto como se apruebe la financiación inicial
+              para su arrendador invitado
+            </p>
+          </mat-expansion-panel>
+        </mat-accordion>
+
+        <mat-accordion style="width: 100%;">
+          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+            <mat-expansion-panel-header style="width:  100%; margin-top: 40px;">
+              <mat-panel-title>
+                ¿En qué se basa su comisión?
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <p>La comisión del agente es un porcentaje de la financiación inicial total que el propietario toma</p>
+          </mat-expansion-panel>
+        </mat-accordion>
+
+        <mat-accordion style="width: 100%;">
+          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+            <mat-expansion-panel-header style="width:  100%; margin-top: 40px;">
+              <mat-panel-title>
+                ¿Qué hay de las tarifas administrativas de la agencia?
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <p>El agente no necesita preocuparse por sus tarifas regulares. Esto se debe a que el pago inicial de Rendea
+              se basa en los ingresos por alquiler del arrendador, después de todos los honorarios del agente deducidos.
+              De esta forma, el agente recibe la comisión de Rendea además de lo que cobran a los propietarios.</p>
+          </mat-expansion-panel>
+        </mat-accordion>
+
+        <mat-accordion style="width: 100%;">
+          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+            <mat-expansion-panel-header style="width: 100%; margin-top: 40px;">
+              <mat-panel-title>
+                ¿Necesito proporcionar mis propios suministros de marketing?
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <p>No, le proporcionaremos todos los activos que necesita para promocionar Rendea, como:
+              Una variedad de información sobre una base regular y actualizaciones sobre nuestros servicios más nuevos.
+              Sesiones individuales de recuperación para responder a todas las preguntas que pueda tener sobre nuestro
+              servicio.</p>
+          </mat-expansion-panel>
+        </mat-accordion>
+
+        <mat-accordion style="width: 100%;">
+          <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+            <mat-expansion-panel-header style="width:  100%; margin-top: 40px;">
+              <mat-panel-title>
+                ¿Cómo puedo rastrearlo?
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <p>Puede ver el rendimiento de las ventas y las ganancias por comisiones en cualquier momento accediendo a
+              los informes en línea. Con esta gran visibilidad del rendimiento, puede optimizar regularmente su flujo de
+              información para los propietarios.</p>
+          </mat-expansion-panel>
+        </mat-accordion>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="hidden md:block bg-[#033629] px-4">
+    <div class="flex justify-between text-white">
+
+      <div class="flex flex-col space-y-20 w-[20%]">
+        <div class="mt-12">
+          <i><img src="assets/img/logo-rendea-footer.png" alt=""></i>
+        </div>
+        <div class="text-[12px]">
+          <p>© 2022 rendea Ltd. All rights reserved.
+            Lima, Perú.</p>
+
+        </div>
+      </div>
+
+      <div class="mt-24">
+        <div class="flex flex-col space-y-4">
+          <a [routerLink]="['/index']">Propietario</a>
+          <a [routerLink]="['/page2']">Inquilino</a>
+          <a [routerLink]="['/agente']">Agente</a>
+        </div>
+      </div>
+
+      <div class="mt-24 mb-24">
+        <div class="flex flex-col space-y-4">
+          <p>Propietario Terms of use</p>
+          <p>Inquilino Terms of use</p>
+          <p>Cookie Policy Privacy Policy</p>
+          <p>Contact us</p>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="md:hidden block bg-[#033629] px-4">
+    <div class="flex flex-col-reverse text-white">
+
+      <div class="flex flex-col space-y-10 w-[80%]">
+        <div class="mt-20">
+          <i><img src="assets/img/logo-rendea-footer.png" alt=""></i>
+        </div>
+        <div class="text-[12px] ">
+          <p class="mb-12">© 2022 rendea Ltd. All rights reserved.
+            Lima, Perú.</p>
+
+        </div>
+      </div>
+
+      <div class="mt-20 mb-24">
+        <div class="flex flex-col space-y-4">
+          <p>Propietario Terms of use</p>
+          <p>Inquilino Terms of use</p>
+          <p>Cookie Policy Privacy Policy</p>
+          <p>Contact us</p>
+        </div>
+      </div>
+
+      <div class="mt-24">
+        <div class="flex flex-col space-y-4 ">
+          <a [routerLink]="['/index']">Propietario</a>
+          <a [routerLink]="['/page2']">Inquilino</a>
+          <a [routerLink]="['/agente']">Agente</a>
+        </div>
+      </div>
+
+
+
+    </div>
+
   </section>
 
 </section>
