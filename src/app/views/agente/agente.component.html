@@ -7,7 +7,12 @@
 
     <div class="w-[100%] lg:hidden block">
       <div class="flex justify-end">
-        <a href="#"><img src="assets/img/gg_menu.png" alt=""></a>
+        <button mat-button [matMenuTriggerFor]="menu"><img src="assets/img/gg_menu.png" alt=""></button>
+        <mat-menu #menu="matMenu">
+          <button mat-menu-item> <a mat-button [routerLink]="['/index']">Propietario</a></button>
+          <button mat-menu-item> <a mat-button [routerLink]="['/page2']">Inquilino</a></button>
+          <button mat-menu-item><a mat-button [routerLink]="['/agente']">Agente</a></button>
+        </mat-menu>
       </div>
     </div>
     <div class="hidden lg:block w-[60%] space-x-20">
@@ -33,7 +38,7 @@
     </div>
   </mat-toolbar>
 
-  <section class="mt-12">
+  <section class="mt-6 md:mt-12">
     <div class="w-[100%] flex mb:flex-col-reverse md:justify-between">
       <div class=" w-[100%] md:w-[40%] flex flex-col bg-[#FAF3E3] md:bg-[#F5F5F5]">
         <div class="flex justify-center text-[20px] lg:text-[30px] xl:text-[40px] 2xl:text-[51.83px] mt-8 md:mt-48">
@@ -41,7 +46,7 @@
             <div class="md:hidden block">
               <div class="w-[100%]">
                 <div class="flex justify-center mb-12">
-                  <div class="w-[70%]">
+                  <div class="w-[90%]">
                   <img src="assets/img/agente-img.png" alt="">
                 </div>
                 </div>
