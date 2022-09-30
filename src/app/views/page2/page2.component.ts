@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import * as AOS from 'aos';
+
 @Component({
   selector: 'app-page2',
   templateUrl: './page2.component.html',
@@ -11,6 +13,7 @@ export class Page2Component implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    AOS.init();
   }
 
 }
